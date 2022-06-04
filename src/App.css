@@ -1,38 +1,183 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400&display=swap");
+
+:root {
+  --lightColor: #f6ebf4;
+  --midColor: #4cbfa6;
+  --darkColor: #482673;
+  /* --darkColor: red; */
+  /* --lightColor: yellow; */
+  /* --cardShadow: 5px 10px 18px var(--midColor); */
+  --cardShadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  --cardHoverShadow: 5px 10px 18px var(--darkColor);
+  --scrollToTopShadow: 0 8px 6px -6px var(--darkColor);
+  --resumeButtonShadow: rgba(0, 0, 0, 0.25) 0px 14px 28px -5px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  --resumeButtonHover: var(--darkColor) 0px 14px 28px -7px,
+    var(--darkColor) 0px 10px 10px -4px;
+  --transition: 0.3s ease-in-out all;
+  --bodyFont: "Merriweather", serif;
+}
+body {
+  background-color: var(--lightColor);
+  color: var(--darkColor);
+  font-family: var(--bodyFont);
+}
+.font {
+  font-family: var(--bodyFont);
+}
+.font-name {
+  font-family: var(--bodyFont);
+  font-size: 4.5rem;
+}
+.font-resume {
+  color: var(--darkColor);
+  font-family: var(--bodyFont);
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 1px;
+  border-radius: 4px;
+}
+.font-heading {
+  font-family: var(--bodyFont);
+  color: var(--darkColor);
+}
+.font-projects {
+  font-family: var(--bodyFont);
+  font-size: 40px;
+  color: var(--darkColor);
+}
+.font-profile {
+  font-family: var(--bodyFont);
+  color: var(--lightColor);
+  font-size: 40px;
+  text-shadow: 2px 5px 8px #482673;
+}
+.resume-button {
+  border-radius: 4px;
+  transition: var(--transition);
+  box-shadow: var(--resumeButtonShadow);
+}
+.resume-button:hover {
+  box-shadow: var(--resumeButtonHover);
+  transform: scale(1.001);
+}
+.card {
+  height: "100%";
+  display: "flex";
+  flex-direction: "column";
+  background-color: var(--lightColor);
+  color: var(--darkColor);
+  transition: var(--transition);
+  box-shadow: var(--cardShadow);
+  border-radius: 4px;
+}
+.card:hover {
+  box-shadow: var(--cardHoverShadow);
+  /* transform: scale(1.01); */
+  transform: translate(0, -10px);
+}
+.card:active {
+  transform: scale(1.01) translateY(0.2rem);
+}
+.card-text-background {
+  background-color: var(--lightColor);
+  color: var(--darkColor);
+}
+.card-header {
+  color: var(--darkColor);
+  font-family: var(--bodyFont);
+  font-size: 1.25rem;
+}
+.card-content {
+  flex-grow: 1;
+  color: var(--darkColor);
+}
+.card-content-extra {
+  color: var(--darkColor);
+}
+.card-media {
+  padding-top: 56.25%;
+  font-family: var(--bodyFont);
+}
+.myProjects-header {
+  padding: 90px 0;
+}
+.font-link {
+  /* font-family: "Fredericka the Great", cursive; */
+  font-weight: bold;
+}
+.icon {
+  color: var(--darkColor);
+}
+
+.anchor-tag {
+  color: var(--darkColor);
+  transition: var(--transition);
+}
+.anchor-tag:hover {
+  color: var(--midColor);
+  transform: scale(1.1);
+  /* text-shadow: var(--cardHoverShadow); */
+}
+.scrollToTop {
+  background: var(--midColor);
+  color: var(--lightColor);
+  bottom: 12.5px;
+  right: 8.5px;
+  position: fixed;
+  box-shadow: var(--scrollToTopShadow);
+  transition: var(--transition);
+  border-radius: 5px;
+}
+.scrollToTop:hover {
+  transform: scale(1.1);
+}
+.tech-icon {
+  transition: var(--transition);
+}
+.tech-icon:hover {
+  transform: scale(1.1);
+}
+.tech-container {
+  margin-top: 20px;
+}
+.down-arrow {
+  font-size: 40px;
+}
+/* For flipping */
+.flip-box {
+  background-color: transparent;
+  height: 150px;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
   text-align: center;
+  transition: transform 1.9s;
+  transform-style: preserve-3d;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.flip-box-front,
+.flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.flip-box-front {
+  color: black;
+}
+
+.flip-box-back {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  transform: rotateY(180deg);
 }
