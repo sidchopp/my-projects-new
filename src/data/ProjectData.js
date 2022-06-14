@@ -1,5 +1,20 @@
 const ProjectData = [
   {
+    "id": "13",
+    "order": 13,
+    "title": "Mobile Shopping Cart",
+    "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
+    "dates": "June 2022 - June 2022",
+    "duties": [
+      "Redux Toolkit is used with React.js to create this Project."
+    ],
+    'img': "https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "website": "https://sid-redux-toolkit-mobile-cart.netlify.app/",
+    "techUsed": "Web Stack: React, Redux Toolkit",
+    "company": "SID",
+    "typeOfProject": "React"
+  },
+  {
     "id": "12",
     "order": 12,
     "title": "A simple Form",
@@ -10,7 +25,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1579444741963-5ae219cfe27c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     "website": "https://main.d13ao79z6eohsa.amplifyapp.com/",
-    "techUsed": "Web Stack :AWS Lambda, API Gateway, DynamoDB",
+    "techUsed": "Web Stack: AWS Lambda, API Gateway, DynamoDB",
     "company": "SID",
     "typeOfProject": "AWS"
   },
@@ -26,7 +41,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1607968980162-8cdb8f0dae6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
     "website": "https://main.d30a6z92p9jj0o.amplifyapp.com/",
-    "techUsed": "Web Stack :  React, AWS, Node.js",
+    "techUsed": "Web Stack: React, AWS, Node.js",
     "company": "SID",
     "typeOfProject": "AWS"
   },
@@ -41,7 +56,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
     "website": "https://sid-allweather.netlify.app/",
-    "techUsed": "Web Stack : Node.js, React",
+    "techUsed": "Web Stack: Node.js, React",
     "company": "SID",
     "typeOfProject": "React"
   },
@@ -56,7 +71,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1519500099198-fd81846b8f03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     "website": "https://about-my-location.netlify.app/",
-    "techUsed": "Web Stack : Node.js, React",
+    "techUsed": "Web Stack: Node.js, React",
     "company": "SID",
     "typeOfProject": "React"
   },
@@ -72,7 +87,7 @@ const ProjectData = [
     ],
     'img': "https://media.istockphoto.com/photos/silicon-element-of-mendeleev-periodic-table-magnified-with-magnifier-picture-id511921456?b=1&k=20&m=511921456&s=170667a&w=0&h=H6eAgLsAjiv2hdmLlx5fxfyp9aHwp4TOskDsq49B3vk=",
     "website": "https://sid-periodic-table.netlify.app/",
-    "techUsed": "Web Stack : Node.js, React",
+    "techUsed": "Web Stack: Node.js, React",
     "company": "SID",
     "typeOfProject": "React"
   },
@@ -87,7 +102,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1572177812156-58036aae439c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     "website": "https://sid-projects.netlify.app/",
-    "techUsed": "Web Stack : Node.js, React",
+    "techUsed": "Web Stack: Node.js, React",
     "company": "SID",
     "typeOfProject": "React"
   },
@@ -102,7 +117,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1620662831351-9f68f76d0b9a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     "website": "https://sid-guess-number.netlify.app/",
-    "techUsed": "Web Stack : HTML, CSS, Vanilla JavaScript",
+    "techUsed": "Web Stack: HTML, CSS, Vanilla JavaScript",
     "company": "SID",
     "typeOfProject": "JavaScript"
   },
@@ -117,7 +132,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1551818255-e6e10975bc17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1225&q=80",
     "website": "https://fusion-alberta.herokuapp.com/",
-    "techUsed": "Web Stack : Node.js, React,Express, MongoDB, Google Firebase, Heroku.",
+    "techUsed": "Web Stack: Node.js, React,Express, MongoDB, Google Firebase, Heroku.",
     "company": "InceptionU Ltd.",
     "typeOfProject": "React"
   },
@@ -133,7 +148,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1581788927061-ac0e09850ed0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1568&q=80",
     "website": "https://sid-rolling-dice.netlify.app/",
-    "techUsed": "Web Stack : HTML, CSS, Vanilla JavaScript",
+    "techUsed": "Web Stack: HTML, CSS, Vanilla JavaScript",
     "company": "SID",
     "typeOfProject": "JavaScript"
   },
@@ -148,7 +163,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1604798048004-03a7abb05d12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     "website": "https://sid-seasons.netlify.app/",
-    "techUsed": "Web Stack : Node.js, React",
+    "techUsed": "Web Stack: Node.js, React",
     "company": "SID",
     "typeOfProject": "React"
   },
@@ -163,7 +178,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1585166169032-551d4ea843fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     "website": "https://i-will-be-back.netlify.app/",
-    "techUsed": "Web Stack : Node.js, React",
+    "techUsed": "Web Stack: Node.js, React",
     "company": "SID",
     "typeOfProject": "React"
   },
