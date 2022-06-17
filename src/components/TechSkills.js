@@ -1,4 +1,6 @@
 import { Icon, Grid, Header } from 'semantic-ui-react';
+import { SiRedux, SiGraphql } from "react-icons/si";
+
 import Typography from '@material-ui/core/Typography';
 
 //Components
@@ -16,7 +18,7 @@ function TechSkills() {
         </Typography>
       </div>
       <div className='tech-container'>
-        <Grid columns={6} doubling >
+        <Grid columns={8} doubling >
           <Grid.Row >
             <Grid.Column>
               <Header as="h1">
@@ -43,6 +45,24 @@ function TechSkills() {
               <Header as="h1">
                 <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript' target="_blank" rel="noreferrer">
                   <Icon circular className={`${jsIcon} tech-icon `} name="js square" />
+                </a>
+              </Header>
+            </Grid.Column>
+            <Grid.Column>
+              <Header as="h1">
+                <a href='https://graphql.org/' target="_blank" rel="noreferrer">
+                  <Icon circular className='tech-icon' >
+                    <SiGraphql />
+                  </Icon>
+                </a>
+              </Header>
+            </Grid.Column>
+            <Grid.Column>
+              <Header as="h1">
+                <a href='https://redux-toolkit.js.org/' target="_blank" rel="noreferrer">
+                  <Icon circular className='tech-icon' >
+                    <SiRedux />
+                  </Icon>
                 </a>
               </Header>
             </Grid.Column>
