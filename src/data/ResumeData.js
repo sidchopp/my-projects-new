@@ -24,7 +24,7 @@ const ResumeData = [
     ],
     "dates2": "September 2020 - February 2021",
     "frameworks": [
-      "React", "Node", "JavaScript", "AWS", "HTML/CSS", "Express", "GitHub/Git", "MongoDB"
+      "React", "Node", "JavaScript", "AWS", "GraphQL", "HTML/CSS", "Express", "Redux", "GitHub/Git", "MongoDB"
     ],
     "role": " Full Stack Developer",
     "certifications": [
