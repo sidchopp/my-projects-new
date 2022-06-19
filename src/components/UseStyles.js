@@ -11,6 +11,8 @@ const awsIconColor = " #FF9900";
 const jsIconColor = "#323330";
 const htmlIconColor = "#f06529";
 const cssIconColor = "#264de4";
+const reduxIconColor = "#764abc";
+const graphQLIconColor = "#e10098";
 
 const UseStyles = makeStyles((theme) => ({
   darkColor: {
@@ -39,6 +41,12 @@ const UseStyles = makeStyles((theme) => ({
   },
   cssIcon: {
     color: cssIconColor
+  },
+  reduxIcon: {
+    color: reduxIconColor
+  },
+  graphQLIcon: {
+    color: graphQLIconColor
   },
   cardMedia: {
     paddingTop: '56.25%', // 16:9

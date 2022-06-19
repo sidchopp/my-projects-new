@@ -8,7 +8,7 @@ import UseStyles from './UseStyles';
 
 function TechSkills() {
   const classes = UseStyles();
-  const { reactIcon, nodeIcon, awsIcon, jsIcon, htmlIcon, cssIcon } = classes;
+  const { reactIcon, nodeIcon, awsIcon, jsIcon, htmlIcon, cssIcon, reduxIcon, graphQLIcon } = classes;
 
   return (
     <div>
@@ -51,7 +51,7 @@ function TechSkills() {
             <Grid.Column>
               <Header as="h1">
                 <a href='https://graphql.org/' target="_blank" rel="noreferrer">
-                  <Icon circular className='tech-icon' >
+                  <Icon circular className={`${graphQLIcon} tech-icon `}>
                     <SiGraphql />
                   </Icon>
                 </a>
@@ -60,7 +60,7 @@ function TechSkills() {
             <Grid.Column>
               <Header as="h1">
                 <a href='https://redux-toolkit.js.org/' target="_blank" rel="noreferrer">
-                  <Icon circular className='tech-icon' >
+                  <Icon circular className={`${reduxIcon} tech-icon `} >
                     <SiRedux />
                   </Icon>
                 </a>
