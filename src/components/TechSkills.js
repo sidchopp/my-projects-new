@@ -14,7 +14,7 @@ function TechSkills() {
     <div>
       <div   >
         <Typography variant="h5" gutterBottom component="div" >
-          <span className="font"> Technologies, I Love </span>
+          <span className="font"> Technologies I Love </span>
         </Typography>
       </div>
       <div className='tech-container'>
