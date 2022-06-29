@@ -1,7 +1,7 @@
 // Material UI
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from "@material-ui/core/styles";
 
-// Hex codes: Charcoal #101820FF, Yellow #FEE715FF 
+// Hex codes: Charcoal #101820FF, Yellow #FEE715FF
 const lightColor = "#f6ebf4";
 const midColor = " #4cbfa6";
 const darkColor = "#482673";
@@ -13,73 +13,77 @@ const htmlIconColor = "#f06529";
 const cssIconColor = "#264de4";
 const reduxIconColor = "#764abc";
 const graphQLIconColor = "#e10098";
+const dockerIconColor = "#2496ed";
 
 const UseStyles = makeStyles((theme) => ({
   darkColor: {
-    color: darkColor
+    color: darkColor,
   },
   midColor: {
-    color: midColor
+    color: midColor,
   },
   lightColor: {
-    color: lightColor
+    color: lightColor,
   },
   reactIcon: {
-    color: reactIconColor
+    color: reactIconColor,
   },
   nodeIcon: {
-    color: nodeIconColor
+    color: nodeIconColor,
   },
   awsIcon: {
-    color: awsIconColor
+    color: awsIconColor,
   },
   jsIcon: {
-    color: jsIconColor
+    color: jsIconColor,
   },
   htmlIcon: {
-    color: htmlIconColor
+    color: htmlIconColor,
   },
   cssIcon: {
-    color: cssIconColor
+    color: cssIconColor,
   },
   reduxIcon: {
-    color: reduxIconColor
+    color: reduxIconColor,
   },
   graphQLIcon: {
-    color: graphQLIconColor
+    color: graphQLIconColor,
+  },
+  dockerIcon: {
+    color: dockerIconColor,
   },
   cardMedia: {
-    paddingTop: '56.25%', // 16:9
+    paddingTop: "56.25%", // 16:9
   },
   cardContent: {
     flexGrow: 1,
-    color: darkColor
+    color: darkColor,
   },
   anchorTag: {
     color: darkColor,
     transition: "all 0.3s ease-in-out 0s",
-    '&:hover': {
+    "&:hover": {
       color: midColor,
-      transform: "scale(1.1, 1.1)"
-    }
+      transform: "scale(1.1, 1.1)",
+    },
   },
 
   expand: {
-    transform: 'rotate(0deg)',
-    marginLeft: 'auto',
-    transition: theme.transitions.create('transform', {
+    transform: "rotate(0deg)",
+    marginLeft: "auto",
+    transition: theme.transitions.create("transform", {
       duration: theme.transitions.duration.shortest,
     }),
   },
   expandOpen: {
-    transform: 'rotate(180deg)',
+    transform: "rotate(180deg)",
   },
   heroContent: {
     // backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(15, 0, 6),
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center',
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center",
     // backgroundImage: `url(https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80)`,
   },
   heroButtons: {
@@ -96,9 +100,7 @@ const UseStyles = makeStyles((theme) => ({
     // backgroundSize: 'cover',
     // backgroundPosition: 'center',
     // backgroundPosition: 'center',
-
   },
 }));
-
 
 export default UseStyles;
