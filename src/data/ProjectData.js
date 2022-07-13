@@ -1,9 +1,24 @@
 const ProjectData = [
   {
+    id: "15",
+    order: 15,
+    title: "Space X",
+    bestView: "On ALL Big Screens, Laptops, Tablets, Mobiles",
+    dates: "July 2022 - July 2022",
+    duties: [
+      "A User can view and request info about SpaceX, its past launches and rockets used for those launches.",
+    ],
+    img: "https://images.unsplash.com/photo-1634175735590-b2ed7b02d143?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1460&q=80",
+    website: "https://sid-spacex.netlify.app/",
+    techUsed: "Web Stack: React, GraphQL, Node",
+    company: "SID",
+    typeOfProject: "GraphQL",
+  },
+  {
     id: "14",
     order: 14,
     title: "My Reading List",
-    bestView: "On Big Screens and Laptops( at the moment)",
+    bestView: "On ALL Big Screens, Laptops, Tablets, Mobiles",
     dates: "June 2022 - July 2022",
     duties: [
       "A User can add a book, get its info,  to a list of books in this MERN + GraphQL- stack app.",
