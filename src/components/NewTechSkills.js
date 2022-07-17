@@ -1,5 +1,5 @@
 import { Icon, Grid, Header } from "semantic-ui-react";
-import { SiRedux, SiGraphql, SiDocker } from "react-icons/si";
+import { SiRedux, SiGraphql, SiDocker, SiTypescript } from "react-icons/si";
 
 import Typography from "@material-ui/core/Typography";
 
@@ -8,7 +8,7 @@ import UseStyles from "./UseStyles";
 
 function NewTechSkills() {
   const classes = UseStyles();
-  const { reduxIcon, graphQLIcon, dockerIcon } = classes;
+  const { reduxIcon, graphQLIcon, dockerIcon, tsIcon } = classes;
 
   return (
     <div>
@@ -18,13 +18,26 @@ function NewTechSkills() {
         </Typography>
       </div>
       <div className="tech-container">
-        <Grid columns={3}>
+        <Grid columns={4}>
           <Grid.Row>
             <Grid.Column>
               <Header as="h1">
                 <a href="https://graphql.org/" target="_blank" rel="noreferrer">
                   <Icon circular className={`${graphQLIcon} tech-icon `}>
                     <SiGraphql />
+                  </Icon>
+                </a>
+              </Header>
+            </Grid.Column>
+            <Grid.Column>
+              <Header as="h1">
+                <a
+                  href="https://www.typescriptlang.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Icon circular className={`${tsIcon} tech-icon `}>
+                    <SiTypescript />
                   </Icon>
                 </a>
               </Header>
