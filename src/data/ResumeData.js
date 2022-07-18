@@ -9,9 +9,9 @@ const ResumeData = [
     title: "Full Stack Developer, Freelance, Calgary-AB, Canada.",
     dates: "February 2021 - Present",
     duties: [
-      "Developed and deployed 20+ web applications, encompassing design, coding, testing and maintenance",
+      "Developed and deployed 20+ commercially viable, public-facing apps, from prototype to final product, encompassing software design reviews, ensuring clean code by creating fast unit testing, code review, browser testing, provided an incredible user experience with security and scalability",
       "Demonstrable experience with applying design patterns, writing clean functional codes on Front-end as well Back-end and optimizing performance in highly-scalable web applications.",
-      "Maximized applications’ efficiency, data quality, scope, operability, and flexibility",
+      "Maximized applications’ efficiency, data quality, scope, operability, funneling traffic through content, looking for better ways to improve existing features of the applications in production",
       "Ensured compatibility with all major browsers on desktop and mobile platforms",
       "Fast learner with great attention to details and make Users' experience a top priority",
     ],
