@@ -18,7 +18,7 @@ function NewTechSkills() {
         </Typography>
       </div>
       <div className="tech-container">
-        <Grid columns={4}>
+        <Grid columns={3}>
           <Grid.Row>
             <Grid.Column>
               <Header as="h1">
@@ -55,7 +55,7 @@ function NewTechSkills() {
                 </a>
               </Header>
             </Grid.Column>
-            <Grid.Column>
+            {/* <Grid.Column>
               <Header as="h1">
                 <a
                   href="https://www.docker.com/"
@@ -67,7 +67,7 @@ function NewTechSkills() {
                   </Icon>
                 </a>
               </Header>
-            </Grid.Column>
+            </Grid.Column> */}
           </Grid.Row>
         </Grid>
       </div>
