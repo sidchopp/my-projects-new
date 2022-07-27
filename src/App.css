@@ -16,8 +16,9 @@
   --resumeButtonHover: var(--darkColor) 0px 14px 28px -7px,
     var(--darkColor) 0px 10px 10px -4px;
   --transition: 0.3s ease-in-out all;
-  --bodyFont: "Merriweather", serif;
-  --nameFont: "Expletus Sans", cursive;
+  /* --bodyFont: "Merriweather", serif; */
+  --bodyFont: "Expletus Sans", cursive;
+  /* --nameFont: "Expletus Sans", cursive; */
 }
 body {
   background-color: var(--lightColor);
@@ -28,10 +29,14 @@ body {
   font-family: var(--bodyFont);
 }
 .font-name {
-  font-family: var(--nameFont);
+  font-family: var(--bodyFont);
   font-size: 5rem;
 }
 .name-sid {
+  color: var(--midColor);
+}
+.highlight-font {
+  /* font-family: var(--nameFont); */
   color: var(--midColor);
 }
 .font-resume {
@@ -89,9 +94,9 @@ body {
   color: var(--darkColor);
 }
 .card-header {
-  color: var(--darkColor);
+  /* color: var(--darkColor); */
   font-family: var(--bodyFont);
-  font-size: 1.25rem;
+  font-size: 1.45rem;
 }
 .card-content {
   flex-grow: 1;
@@ -118,6 +123,7 @@ body {
 .anchor-tag {
   color: var(--darkColor);
   transition: var(--transition);
+  font-family: var(--bodyFont);
 }
 .anchor-tag:hover {
   color: var(--midColor);

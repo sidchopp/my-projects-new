@@ -14,7 +14,10 @@ function NewTechSkills() {
     <div>
       <div>
         <Typography variant="h5" gutterBottom component="div">
-          <span className="font"> New technologies, I am learning </span>
+          <span className="font">
+            <span className="highlight-font">New </span>
+            technologies, I am learning{" "}
+          </span>
         </Typography>
       </div>
       <div className="tech-container">

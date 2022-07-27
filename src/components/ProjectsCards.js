@@ -34,7 +34,9 @@ function ProjectsCards() {
       <LazyLoad height={1000} offset={[-65, 0]}>
         <Container className={classes.myProjectsHeader} maxWidth="lg">
           <Typography component="h1" variant="h2" align="center" gutterBottom>
-            <span className="font-projects">My Projects</span>
+            <span className="font-projects">
+              My <span className="highlight-font">Projects</span>
+            </span>
           </Typography>
         </Container>
         <Grid style={{ marginTop: "10px" }} container spacing={4}>
@@ -87,9 +89,11 @@ function ProjectsCards() {
                           )
                         }
                         title={
-                          <Typography>
+                          <Typography component="span">
                             {" "}
-                            <span className="card-header">{title}</span>{" "}
+                            <span className="card-header highlight-font">
+                              {title}
+                            </span>{" "}
                           </Typography>
                         }
                         subheader={techUsed}
