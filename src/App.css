@@ -31,6 +31,9 @@ body {
   font-family: var(--nameFont);
   font-size: 5rem;
 }
+.name-sid {
+  color: var(--midColor);
+}
 .font-resume {
   color: var(--darkColor);
   font-family: var(--bodyFont);

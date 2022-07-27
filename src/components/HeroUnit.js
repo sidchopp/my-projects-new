@@ -23,7 +23,9 @@ function HeroUnit() {
     <div className={classes.heroContent}>
       <Container maxWidth="md">
         <Typography component="h1" variant="h2" align="center" gutterBottom>
-          <div className="font-name  ">Siddharth Chopra</div>
+          <div className="font-name  ">
+            <span className="name-sid">Sid</span>dharth Chopra
+          </div>
         </Typography>
         <Typography variant="h4" align="center" gutterBottom>
           <div className="font-profile ">Full Stack Developer</div>
