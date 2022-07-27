@@ -139,6 +139,7 @@ body {
   box-shadow: var(--scrollToTopShadow);
   transition: var(--transition);
   border-radius: 5px;
+  z-index: 99;
 }
 .scrollToTop:hover {
   transform: scale(1.1);
