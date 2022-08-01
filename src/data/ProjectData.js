@@ -1,5 +1,20 @@
 const ProjectData = [
   {
+    id: "16",
+    order: 16,
+    title: "Canadian Holidays",
+    bestView: "On ALL Big Screens, Laptops, Tablets, Mobiles",
+    dates: "July 2022 - July 2022",
+    duties: [
+      "A province-wise list of Canadian public and federal holidays for all 13 provinces.",
+    ],
+    img: "https://images.unsplash.com/photo-1607578774871-249a5b07c380?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    website: "https://sid-canada-holidays.netlify.app/",
+    techUsed: "Web Stack: React, TypeScript, Node",
+    company: "SID",
+    typeOfProject: "TypeScript",
+  },
+  {
     id: "15",
     order: 15,
     title: "Space X",

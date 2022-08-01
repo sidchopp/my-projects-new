@@ -13,7 +13,7 @@ import Container from "@material-ui/core/Container";
 import clsx from "clsx";
 import IconButton from "@material-ui/core/IconButton";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import { SiRedux, SiGraphql, SiDocker } from "react-icons/si";
+import { SiRedux, SiGraphql, SiDocker, SiTypescript } from "react-icons/si";
 import { Header, Icon } from "semantic-ui-react";
 
 //Components
@@ -83,6 +83,10 @@ function ProjectsCards() {
                           ) : typeOfProject === "Redux" ? (
                             <Icon size="big">
                               <SiRedux />
+                            </Icon>
+                          ) : typeOfProject === "TypeScript" ? (
+                            <Icon size="big">
+                              <SiTypescript />
                             </Icon>
                           ) : (
                             <Icon size="big" name="js" />
