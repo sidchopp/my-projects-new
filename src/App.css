@@ -194,3 +194,10 @@ body {
   color: white;
   transform: rotateY(180deg);
 }
+
+.leaf {
+  vertical-align: text-top;
+  padding: 3px;
+  color: rgb(235, 45, 55);
+  font-size: 0.9rem;
+}
