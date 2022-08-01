@@ -32,13 +32,13 @@ const ProjectData = [
   {
     id: "14",
     order: 14,
-    title: "My Reading List",
+    title: "Reading List",
     bestView: "On ALL Big Screens, Laptops, Tablets, Mobiles",
     dates: "June 2022 - July 2022",
     duties: [
       "A User can add a book, get its info,  to a list of books in this MERN + GraphQL- stack app.",
     ],
-    img: "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    img: "https://images.unsplash.com/photo-1618933974351-e38629016464?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=833&q=80",
     website: "https://sid-merng-books.netlify.app/",
     techUsed: "Web Stack: MongoDB, Express, React, Node, GraphQL",
     company: "SID",
