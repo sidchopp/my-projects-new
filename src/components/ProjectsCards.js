@@ -13,7 +13,7 @@ import Container from "@material-ui/core/Container";
 import clsx from "clsx";
 import IconButton from "@material-ui/core/IconButton";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import { SiRedux, SiGraphql, SiDocker, SiTypescript } from "react-icons/si";
+import { SiRedux, SiGraphql, SiTypescript } from "react-icons/si";
 import { Header, Icon } from "semantic-ui-react";
 
 //Components
@@ -22,7 +22,6 @@ import UseStyles from "./UseStyles";
 
 function ProjectsCards() {
   const classes = UseStyles();
-  const { reduxIcon, graphQLIcon, dockerIcon } = classes;
   const [expanded, setExpanded] = useState(false);
 
   const handleExpandClick = () => {

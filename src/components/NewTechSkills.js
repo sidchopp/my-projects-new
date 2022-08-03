@@ -1,6 +1,6 @@
 import { Icon, Grid, Header } from "semantic-ui-react";
-import { SiRedux, SiGraphql, SiDocker, SiTypescript } from "react-icons/si";
-
+import { SiRedux, SiGraphql, SiTypescript } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 import Typography from "@material-ui/core/Typography";
 
 //Components
@@ -8,7 +8,7 @@ import UseStyles from "./UseStyles";
 
 function NewTechSkills() {
   const classes = UseStyles();
-  const { reduxIcon, graphQLIcon, dockerIcon, tsIcon } = classes;
+  const { reduxIcon, graphQLIcon, nextIcon, tsIcon } = classes;
 
   return (
     <div>
@@ -21,13 +21,13 @@ function NewTechSkills() {
         </Typography>
       </div>
       <div className="tech-container">
-        <Grid columns={3}>
+        <Grid columns={4} doubling>
           <Grid.Row>
             <Grid.Column>
               <Header as="h1">
-                <a href="https://graphql.org/" target="_blank" rel="noreferrer">
-                  <Icon circular className={`${graphQLIcon} tech-icon `}>
-                    <SiGraphql />
+                <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+                  <Icon circular className={`${nextIcon} tech-icon `}>
+                    <TbBrandNextjs />
                   </Icon>
                 </a>
               </Header>
@@ -41,6 +41,15 @@ function NewTechSkills() {
                 >
                   <Icon circular className={`${tsIcon} tech-icon `}>
                     <SiTypescript />
+                  </Icon>
+                </a>
+              </Header>
+            </Grid.Column>
+            <Grid.Column>
+              <Header as="h1">
+                <a href="https://graphql.org/" target="_blank" rel="noreferrer">
+                  <Icon circular className={`${graphQLIcon} tech-icon `}>
+                    <SiGraphql />
                   </Icon>
                 </a>
               </Header>

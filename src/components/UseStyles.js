@@ -15,6 +15,7 @@ const reduxIconColor = "#764abc";
 const graphQLIconColor = "#e10098";
 const dockerIconColor = "#2496ed";
 const tsIconColor = "#3178c6";
+const nextIconColor = "000000";
 
 const UseStyles = makeStyles((theme) => ({
   darkColor: {
@@ -55,6 +56,9 @@ const UseStyles = makeStyles((theme) => ({
   },
   tsIcon: {
     color: tsIconColor,
+  },
+  nextIcon: {
+    color: nextIconColor,
   },
   cardMedia: {
     paddingTop: "56.25%", // 16:9
