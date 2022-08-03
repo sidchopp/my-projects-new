@@ -25,9 +25,9 @@ const ResumeData = [
     dates2: "September 2020 - February 2021",
     frameworks: [
       "React",
-      "Redux",
       "Node",
       "JavaScript",
+      "TypeScript",
       "AWS",
       "MongoDB",
       "GraphQL",
