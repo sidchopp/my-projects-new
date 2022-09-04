@@ -6,9 +6,12 @@ const ResumeData = [
   {
     id: "recAGJfiU4CeaV0HL",
     order: 1,
-    title: "Full Stack Developer, Freelance, Calgary-AB, Canada.",
-    dates: "February 2021 - Present",
-    duties: [
+    title: "Software Developer, Neo Financial, Calgary-AB, Canada.",
+    dates: "August 2022 - Present",
+    duties: ["Working with the MarTech team", "Learning Neo's tech stack"],
+    title1: "Full Stack Developer, Freelance, Calgary-AB, Canada.",
+    dates1: "February 2021 - August 2022",
+    duties1: [
       "Developed and deployed 20+ commercially viable, public-facing apps, from prototype to final product, encompassing software design reviews, ensuring clean code by creating fast unit testing, code review, browser testing, provided an incredible user experience with security and scalability",
       "Demonstrable experience with applying design patterns, writing clean functional codes on Front-end as well Back-end and optimizing performance in highly-scalable web applications.",
       "Maximized applications’ efficiency, data quality, scope, operability, funneling traffic through content, looking for better ways to improve existing features of the applications in production",
