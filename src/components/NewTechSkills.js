@@ -1,5 +1,5 @@
 import { Icon, Grid, Header } from "semantic-ui-react";
-import { SiRedux, SiGraphql, SiTypescript } from "react-icons/si";
+import { SiContentful, SiGraphql, SiTypescript } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import Typography from "@material-ui/core/Typography";
 
@@ -57,12 +57,12 @@ function NewTechSkills() {
             <Grid.Column>
               <Header as="h1">
                 <a
-                  href="https://redux-toolkit.js.org/"
+                  href="https://www.contentful.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <Icon circular className={`${reduxIcon} tech-icon `}>
-                    <SiRedux />
+                    <SiContentful />
                   </Icon>
                 </a>
               </Header>
