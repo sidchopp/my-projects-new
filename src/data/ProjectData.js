@@ -242,21 +242,6 @@ const ProjectData = [
     company: "SID",
     typeOfProject: "React",
   },
-  {
-    id: "0",
-    order: 0,
-    bestView: "On ALL Big Screens, Laptops, Tablets, Mobiles",
-    title: "Full Stack Web App",
-    dates: "March 2021 - April 2022",
-    duties: [
-      "I am working on it at the moment but, it's live so you can take a sneak peek.. ",
-    ],
-    img: "https://images.unsplash.com/photo-1473090928358-00fcead4f08c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80",
-    website: "https://main.d1vvpug5kati3r.amplifyapp.com/",
-    techUsed: "Web Stack :  React, AWS, Node.js",
-    company: "SID",
-    typeOfProject: "AWS",
-  },
 ];
 
 export default ProjectData;
