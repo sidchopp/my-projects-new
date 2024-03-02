@@ -8,7 +8,7 @@ const ResumeData = [
     order: 1,
     title: "Software Developer, Neo Financial, Calgary-AB, Canada.",
     dates: "August 2022 - Present",
-    duties: ["Working with the MarTech team", "Learning Neo's tech stack"],
+    duties: ["Crafting web-based interfaces and architecting reusable components utilizing Next.js, TypeScript, GraphQL, AWS for micro services, and Vercel for streamline deployments", "Consistently delivering high-quality code, active engaging in peer code reviews and design assessments, and demonstrating a commitment to robust unit testing"],
     title1: "Full Stack Developer, Freelance, Calgary-AB, Canada.",
     dates1: "February 2021 - August 2022",
     duties1: [

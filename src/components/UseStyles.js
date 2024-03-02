@@ -11,7 +11,7 @@ const awsIconColor = " #FF9900";
 const jsIconColor = "#323330";
 const htmlIconColor = "#f06529";
 const cssIconColor = "#264de4";
-const reduxIconColor = "#764abc";
+const contentfulIconColor = "#764abc";
 const graphQLIconColor = "#e10098";
 const dockerIconColor = "#2496ed";
 const tsIconColor = "#3178c6";
@@ -45,8 +45,8 @@ const UseStyles = makeStyles((theme) => ({
   cssIcon: {
     color: cssIconColor,
   },
-  reduxIcon: {
-    color: reduxIconColor,
+  contentfulIcon: {
+    color: contentfulIconColor,
   },
   graphQLIcon: {
     color: graphQLIconColor,

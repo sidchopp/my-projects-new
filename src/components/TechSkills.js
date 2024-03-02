@@ -1,22 +1,24 @@
 import { Icon, Grid, Header } from "semantic-ui-react";
 import Typography from "@material-ui/core/Typography";
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiContentful, SiGraphql, SiTypescript } from "react-icons/si";
 
 //Components
 import UseStyles from "./UseStyles";
 
 function TechSkills() {
   const classes = UseStyles();
-  const { reactIcon, nodeIcon, awsIcon, jsIcon, htmlIcon, cssIcon } = classes;
+  const { reactIcon, nodeIcon, awsIcon, jsIcon, htmlIcon, cssIcon, graphQLIcon, nextIcon, tsIcon, contentfulIcon } = classes;
 
   return (
     <div>
       <div>
         <Typography variant="h5" gutterBottom component="div">
-          <span className="font"> Technologies, I mainly work with </span>
+          <span className="font"> Technologies, I work with </span>
         </Typography>
       </div>
       <div className="tech-container">
-        <Grid columns={6} doubling>
+        <Grid columns={10} doubling>
           <Grid.Row>
             <Grid.Column>
               <Header as="h1">
@@ -26,6 +28,15 @@ function TechSkills() {
                     className={`${reactIcon} tech-icon `}
                     name="react"
                   />
+                </a>
+              </Header>
+            </Grid.Column>
+            <Grid.Column>
+              <Header as="h1">
+                <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+                  <Icon circular className={`${nextIcon} tech-icon `}>
+                    <TbBrandNextjs />
+                  </Icon>
                 </a>
               </Header>
             </Grid.Column>
@@ -62,6 +73,28 @@ function TechSkills() {
             <Grid.Column>
               <Header as="h1">
                 <a
+                  href="https://www.typescriptlang.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Icon circular className={`${tsIcon} tech-icon `}>
+                    <SiTypescript />
+                  </Icon>
+                </a>
+              </Header>
+            </Grid.Column>
+            <Grid.Column>
+              <Header as="h1">
+                <a href="https://graphql.org/" target="_blank" rel="noreferrer">
+                  <Icon circular className={`${graphQLIcon} tech-icon `}>
+                    <SiGraphql />
+                  </Icon>
+                </a>
+              </Header>
+            </Grid.Column>
+            <Grid.Column>
+              <Header as="h1">
+                <a
                   href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                   target="_blank"
                   rel="noreferrer"
@@ -71,6 +104,19 @@ function TechSkills() {
                     className={`${jsIcon} tech-icon `}
                     name="js square"
                   />
+                </a>
+              </Header>
+            </Grid.Column>
+            <Grid.Column>
+              <Header as="h1">
+                <a
+                  href="https://www.contentful.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Icon circular className={`${contentfulIcon} tech-icon `}>
+                    <SiContentful />
+                  </Icon>
                 </a>
               </Header>
             </Grid.Column>

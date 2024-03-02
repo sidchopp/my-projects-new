@@ -9,7 +9,6 @@ import Container from "@material-ui/core/Container";
 // Components
 import ResumeModal from "./ResumeModal";
 import TechSkills from "./TechSkills";
-import NewTechSkills from "./NewTechSkills";
 import UseStyles from "./UseStyles";
 import DownArrow from "./DownArrow";
 import Certifications from "./Certifications";
@@ -28,7 +27,7 @@ function HeroUnit() {
           </div>
         </Typography>
         <Typography variant="h4" align="center" gutterBottom>
-          <div className="font-profile ">Full Stack Developer</div>
+          <div className="font-profile ">Software Developer</div>
         </Typography>
         <div className={classes.heroButtons}>
           <Grid container spacing={2} justifyContent="center">
@@ -40,7 +39,7 @@ function HeroUnit() {
                   href="https://github.com/sidchopp"
                   target="_blank"
                   size="large"
-                  // className={classes.onHover}
+                // className={classes.onHover}
                 >
                   <GitHubIcon className="icon" fontSize="large" />
                 </IconButton>
@@ -78,7 +77,7 @@ function HeroUnit() {
         <Typography variant="h4" align="center" gutterBottom>
           {/* Component Import */}
           <TechSkills />
-          <NewTechSkills />
+          {/* <NewTechSkills /> */}
           <DownArrow />
           {/*  */}
         </Typography>
