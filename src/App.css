@@ -2,23 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@400;600&display=swap");
 
 :root {
-  --lightColor: #f6ebf4;
-  --midColor: #4cbfa6;
-  --darkColor: #482673;
-  /* --darkColor: red; */
-  /* --lightColor: yellow; */
-  /* --cardShadow: 5px 10px 18px var(--midColor); */
+  --lightColor: #ffffff;
+  --midColor: #dc4f4b;
+  --darkColor: #2d2b70;
   --cardShadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  --cardHoverShadow: 5px 10px 18px var(--darkColor);
+  --cardHoverShadow: 2px 2px 10px var(--darkColor);
   --scrollToTopShadow: 0 8px 6px -6px var(--darkColor);
   --resumeButtonShadow: rgba(0, 0, 0, 0.25) 0px 14px 28px -5px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  --resumeButtonHover: var(--darkColor) 0px 14px 28px -7px,
+  --resumeButtonHover: var(--darkColor) 0px 5px 10px -2px,
     var(--darkColor) 0px 10px 10px -4px;
   --transition: 0.3s ease-in-out all;
-  /* --bodyFont: "Merriweather", serif; */
   --bodyFont: "Expletus Sans", cursive;
-  /* --nameFont: "Expletus Sans", cursive; */
 }
 body {
   background-color: var(--lightColor);
@@ -36,7 +31,6 @@ body {
   color: var(--midColor);
 }
 .highlight-font {
-  /* font-family: var(--nameFont); */
   color: var(--midColor);
 }
 .font-resume {
@@ -83,7 +77,6 @@ body {
 }
 .card:hover {
   box-shadow: var(--cardHoverShadow);
-  /* transform: scale(1.01); */
   transform: translate(0, -10px);
 }
 .card:active {
@@ -94,7 +87,6 @@ body {
   color: var(--darkColor);
 }
 .card-header {
-  /* color: var(--darkColor); */
   font-family: var(--bodyFont);
   font-size: 1.45rem;
 }
@@ -113,13 +105,11 @@ body {
   padding: 90px 0;
 }
 .font-link {
-  /* font-family: "Fredericka the Great", cursive; */
   font-weight: bold;
 }
 .icon {
   color: var(--darkColor);
 }
-
 .anchor-tag {
   color: var(--darkColor);
   transition: var(--transition);
@@ -128,7 +118,6 @@ body {
 .anchor-tag:hover {
   color: var(--midColor);
   transform: scale(1.1);
-  /* text-shadow: var(--cardHoverShadow); */
 }
 .scrollToTop {
   background: var(--midColor);
@@ -148,7 +137,6 @@ body {
   transition: var(--transition);
 }
 .tech-icon:hover {
-  /* transform: scale(1.1); */
   transform: translate(0, -10px);
 }
 .tech-container {
@@ -157,13 +145,13 @@ body {
 .down-arrow {
   font-size: 40px;
 }
+
 /* For flipping */
 .flip-box {
   background-color: transparent;
   height: 150px;
   perspective: 1000px;
 }
-
 .flip-box-inner {
   position: relative;
   width: 100%;
@@ -172,11 +160,9 @@ body {
   transition: transform 1.9s;
   transform-style: preserve-3d;
 }
-
 .flip-box:hover .flip-box-inner {
   transform: rotateY(180deg);
 }
-
 .flip-box-front,
 .flip-box-back {
   position: absolute;
@@ -185,16 +171,13 @@ body {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-
 .flip-box-front {
   color: black;
 }
-
 .flip-box-back {
   color: white;
   transform: rotateY(180deg);
 }
-
 .leaf {
   vertical-align: text-top;
   padding: 3px;

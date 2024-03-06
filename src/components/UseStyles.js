@@ -1,8 +1,8 @@
 import { makeStyles } from "@material-ui/core/styles";
 
-const lightColor = "#f6ebf4";
-const midColor = " #4cbfa6";
-const darkColor = "#482673";
+const lightColor = "#ffffff";
+const midColor = "#dc4f4b";
+const darkColor = "#2d2b70";
 const reactIconColor = "#61dafb";
 const nodeIconColor = "#68A063";
 const awsIconColor = " #FF9900";
