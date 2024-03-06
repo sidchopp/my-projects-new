@@ -93,8 +93,7 @@ const ProjectData = [
   {
     id: "8",
     order: 8,
-    bestView:
-      "On ALL Big Screens, Laptops, Tablets, Mobiles(Horizontal position better than Vertical)",
+    bestView: "On ALL Big Screens, Laptops, Tablets",
     title: "Periodic Table",
     dates: "September 2021 - September 2021",
     duties: [
