@@ -1,8 +1,8 @@
 import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
 
-const beforeArrowComes = "animate__animated animate__fadeIn animate__slow ";
+const beforeArrowComes = "animate__animated animate__fadeIn animate__slow";
 const afterArrowComes =
-  " animate__animated animate__fadeIn  animate__slow animate__delay-1s animate__infinite";
+  "animate__animated animate__fadeIn animate__slow animate__delay-1s animate__infinite";
 
 function DownArrow() {
   return (

@@ -1,7 +1,5 @@
-// Material UI
 import { makeStyles } from "@material-ui/core/styles";
 
-// Hex codes: Charcoal #101820FF, Yellow #FEE715FF
 const lightColor = "#f6ebf4";
 const midColor = " #4cbfa6";
 const darkColor = "#482673";

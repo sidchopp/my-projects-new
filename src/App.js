@@ -1,8 +1,5 @@
-//Components
-import MyProjects from './components/MyProjects';
-
-//CSS
-import './App.css';
+import "./App.css";
+import MyProjects from "./components/MyProjects";
 
 function App() {
   return (

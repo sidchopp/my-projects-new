@@ -1,14 +1,9 @@
 import React, { useState } from "react";
 import { Icon } from "semantic-ui-react";
-
-//components
 import ResumeData from "../data/ResumeData";
 
 function DetailedResume() {
-  //states
-  const [jobs, setJobs] = useState(ResumeData);
   const [value, setValue] = useState(0);
-  //const [activeItem, setActiveItem] = useState(value)
 
   const {
     dates,
@@ -22,11 +17,11 @@ function DetailedResume() {
     duties2,
     certifications,
     frameworks,
-  } = jobs[value];
+  } = ResumeData[value];
   return (
     <>
       <div>
-        {jobs.map((item, index) => {
+        {ResumeData.map((item, index) => {
           return (
             <button
               style={{ margin: "2px" }}

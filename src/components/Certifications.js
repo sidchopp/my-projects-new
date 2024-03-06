@@ -4,7 +4,6 @@ import IconButton from "@mui/material/IconButton";
 import WorkspacePremiumIcon from "@mui/icons-material/WorkspacePremium";
 import BackspaceIcon from "@mui/icons-material/Backspace";
 
-//Components
 import certificationsData from "../data/CertificationsData";
 import { Typography } from "@material-ui/core";
 
@@ -65,7 +64,6 @@ function Certifications() {
                 <Grid style={{ marginTop: "20px" }}>
                   <Grid.Column textAlign="left">
                     <Typography component="span">
-                      {/* <Icon circular className={classes.darkColor} name='setting' /> */}{" "}
                       <span className="highlight-font">Skills</span> learned
                     </Typography>
                     {data.skills.map((skill) => {

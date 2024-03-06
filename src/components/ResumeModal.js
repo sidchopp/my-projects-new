@@ -5,7 +5,6 @@ import IconButton from "@mui/material/IconButton";
 import BackspaceIcon from "@mui/icons-material/Backspace";
 import "semantic-ui-css/semantic.min.css";
 
-// Components
 import DetailedResume from "./DetailedResume";
 
 function ResumeModal() {
@@ -29,7 +28,6 @@ function ResumeModal() {
           </div>
         }
       >
-        {/* <div><Image fluid src={image} rounded bordered centered /></div> */}
         <Modal.Header>
           <span className="font-heading"> My Experience</span>
         </Modal.Header>

@@ -5,16 +5,13 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
+import "../App.css";
 
-// Components
 import ResumeModal from "./ResumeModal";
 import TechSkills from "./TechSkills";
 import UseStyles from "./UseStyles";
 import DownArrow from "./DownArrow";
 import Certifications from "./Certifications";
-
-//CSS
-import "../App.css";
 
 function HeroUnit() {
   const classes = UseStyles();
@@ -34,12 +31,9 @@ function HeroUnit() {
             <Grid item>
               <div>
                 <IconButton
-                  // variant="contained"
-                  // color="primary"
                   href="https://github.com/sidchopp"
                   target="_blank"
                   size="large"
-                // className={classes.onHover}
                 >
                   <GitHubIcon className="icon" fontSize="large" />
                 </IconButton>
@@ -47,7 +41,6 @@ function HeroUnit() {
             </Grid>
             <Grid item>
               <div>
-                {/* component import */}
                 <Certifications />
               </div>
             </Grid>
@@ -67,7 +60,6 @@ function HeroUnit() {
           </Grid>
           <Grid container spacing={6} justifyContent="center">
             <Grid item>
-              {/* component import */}
               <div>
                 <ResumeModal />
               </div>
@@ -75,11 +67,9 @@ function HeroUnit() {
           </Grid>
         </div>
         <Typography variant="h4" align="center" gutterBottom>
-          {/* Component Import */}
           <TechSkills />
           {/* <NewTechSkills /> */}
           <DownArrow />
-          {/*  */}
         </Typography>
       </Container>
     </div>

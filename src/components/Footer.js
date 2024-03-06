@@ -2,14 +2,11 @@ import Typography from "@material-ui/core/Typography";
 import { Icon } from "semantic-ui-react";
 import IconButton from "@mui/material/IconButton";
 import { FaCanadianMapleLeaf } from "react-icons/fa";
+import "animate.css";
 
-// Components
 import ContactMe from "./ContactMe";
 import UseStyles from "./UseStyles";
 import Today from "./Today";
-
-// Amimate.css
-import "animate.css";
 
 function Footer() {
   const classes = UseStyles();

@@ -14,7 +14,6 @@ import { Icon } from "semantic-ui-react";
 
 import ProjectData from "../data/ProjectData";
 import UseStyles from "./UseStyles";
-import { Padding } from "@mui/icons-material";
 
 function ProjectsCards() {
   const classes = UseStyles();

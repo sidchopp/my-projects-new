@@ -1,14 +1,9 @@
-import { Icon, Grid, Header } from "semantic-ui-react";
-import { SiContentful, SiGraphql, SiTypescript } from "react-icons/si";
-
+import { Grid } from "semantic-ui-react";
 import Typography from "@material-ui/core/Typography";
-
-//Components
 import UseStyles from "./UseStyles";
 
 function NewTechSkills() {
   const classes = UseStyles();
-  const { reduxIcon, graphQLIcon, nextIcon, tsIcon } = classes;
 
   return (
     <div>
@@ -23,8 +18,6 @@ function NewTechSkills() {
       <div className="tech-container">
         <Grid columns={4} doubling>
           <Grid.Row>
-
-
             {/* <Grid.Column>
               <Header as="h1">
                 <a

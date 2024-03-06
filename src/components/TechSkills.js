@@ -2,13 +2,22 @@ import { Icon, Grid, Header } from "semantic-ui-react";
 import Typography from "@material-ui/core/Typography";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiContentful, SiGraphql, SiTypescript } from "react-icons/si";
-
-//Components
 import UseStyles from "./UseStyles";
 
 function TechSkills() {
   const classes = UseStyles();
-  const { reactIcon, nodeIcon, awsIcon, jsIcon, htmlIcon, cssIcon, graphQLIcon, nextIcon, tsIcon, contentfulIcon } = classes;
+  const {
+    reactIcon,
+    nodeIcon,
+    awsIcon,
+    jsIcon,
+    htmlIcon,
+    cssIcon,
+    graphQLIcon,
+    nextIcon,
+    tsIcon,
+    contentfulIcon,
+  } = classes;
 
   return (
     <div>
@@ -25,7 +34,7 @@ function TechSkills() {
                 <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
                   <Icon
                     circular
-                    className={`${reactIcon} tech-icon `}
+                    className={`${reactIcon} tech-icon`}
                     name="react"
                   />
                 </a>
@@ -34,7 +43,7 @@ function TechSkills() {
             <Grid.Column>
               <Header as="h1">
                 <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
-                  <Icon circular className={`${nextIcon} tech-icon `}>
+                  <Icon circular className={`${nextIcon} tech-icon`}>
                     <TbBrandNextjs />
                   </Icon>
                 </a>
@@ -49,7 +58,7 @@ function TechSkills() {
                 >
                   <Icon
                     circular
-                    className={`${nodeIcon} tech-icon `}
+                    className={`${nodeIcon} tech-icon`}
                     name="node"
                   />
                 </a>
@@ -64,7 +73,7 @@ function TechSkills() {
                 >
                   <Icon
                     circular
-                    className={`${awsIcon} tech-icon `}
+                    className={`${awsIcon} tech-icon`}
                     name="aws"
                   />
                 </a>
@@ -77,7 +86,7 @@ function TechSkills() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Icon circular className={`${tsIcon} tech-icon `}>
+                  <Icon circular className={`${tsIcon} tech-icon`}>
                     <SiTypescript />
                   </Icon>
                 </a>
@@ -86,7 +95,7 @@ function TechSkills() {
             <Grid.Column>
               <Header as="h1">
                 <a href="https://graphql.org/" target="_blank" rel="noreferrer">
-                  <Icon circular className={`${graphQLIcon} tech-icon `}>
+                  <Icon circular className={`${graphQLIcon} tech-icon`}>
                     <SiGraphql />
                   </Icon>
                 </a>
@@ -101,7 +110,7 @@ function TechSkills() {
                 >
                   <Icon
                     circular
-                    className={`${jsIcon} tech-icon `}
+                    className={`${jsIcon} tech-icon`}
                     name="js square"
                   />
                 </a>
@@ -114,7 +123,7 @@ function TechSkills() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Icon circular className={`${contentfulIcon} tech-icon `}>
+                  <Icon circular className={`${contentfulIcon} tech-icon`}>
                     <SiContentful />
                   </Icon>
                 </a>
@@ -130,7 +139,7 @@ function TechSkills() {
                   {" "}
                   <Icon
                     circular
-                    className={`${htmlIcon} tech-icon `}
+                    className={`${htmlIcon} tech-icon`}
                     name="html5"
                   />
                 </a>
@@ -146,7 +155,7 @@ function TechSkills() {
                   {" "}
                   <Icon
                     circular
-                    className={`${cssIcon} tech-icon `}
+                    className={`${cssIcon} tech-icon`}
                     name="css3 alternate"
                   />
                 </a>
