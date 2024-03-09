@@ -1,5 +1,4 @@
 import { Icon, Grid, Header } from "semantic-ui-react";
-import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiContentful, SiGraphql, SiTypescript } from "react-icons/si";

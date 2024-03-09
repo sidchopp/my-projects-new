@@ -7,7 +7,6 @@ import Typography from "@material-ui/core/Typography";
 import "../App.css";
 
 import ResumeModal from "./ResumeModal";
-import TechSkills from "./TechSkills";
 import UseStyles from "./UseStyles";
 import Certifications from "./Certifications";
 
@@ -59,11 +58,7 @@ function HeroUnit() {
           </Grid>
         </Grid>
       </div>
-      <Typography variant="h4" align="center" gutterBottom>
-        {/* <TechSkills /> */}
-        {/* <NewTechSkills /> */}
-        {/* <DownArrow /> */}
-      </Typography>
+      <Typography variant="h4" align="center" gutterBottom></Typography>
     </div>
   );
 }

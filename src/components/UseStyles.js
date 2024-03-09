@@ -85,7 +85,7 @@ const UseStyles = makeStyles((theme) => ({
     transform: "rotate(180deg)",
   },
   heroContent: {
-    padding: theme.spacing(15, 0, 6),
+    padding: theme.spacing(15, 0),
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",

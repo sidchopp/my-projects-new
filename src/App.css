@@ -15,7 +15,10 @@
   --transition: 0.3s ease-in-out all;
   --bodyFont: "Expletus Sans", cursive;
 }
-body {
+
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* This can also help prevent horizontal scroll */
   background-color: var(--lightColor);
   color: var(--darkColor);
   font-family: var(--bodyFont);
@@ -27,7 +30,7 @@ body {
 .font-name {
   font-family: var(--bodyFont);
   color: var(--darkColor);
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: bold;
   padding: 30px 0;
   text-align: center;
@@ -36,29 +39,9 @@ body {
 .font-profile {
   font-family: var(--bodyFont);
   color: var(--midColor);
-  font-size: 40px;
+  font-size: 3rem;
   font-weight: bold;
   text-align: center;
-}
-
-@media (min-width: 768px) {
-  font-name {
-      font-size: 16px;
-  }
-
-  font-profile {
-      font-size: 14px;
-  }
-}
-
-@media (min-width: 60px) {
-  font-name {
-      font-size: 12px;
-  }
-
-  font-profile {
-      font-size: 8px;
-  }
 }
 
 .name-sid {
