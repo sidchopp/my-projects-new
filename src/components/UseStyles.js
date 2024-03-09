@@ -85,12 +85,11 @@ const UseStyles = makeStyles((theme) => ({
     transform: "rotate(180deg)",
   },
   heroContent: {
-    // backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(15, 0, 6),
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
-    // backgroundImage: `url(https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80)`,
+    backgroundImage: `url(https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`,
   },
   heroButtons: {
     marginTop: theme.spacing(4),

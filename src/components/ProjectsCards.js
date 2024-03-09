@@ -8,25 +8,17 @@ import {
   Typography,
   Container,
 } from "@material-ui/core";
-
 import { SiRedux, SiGraphql, SiTypescript } from "react-icons/si";
 import { Icon } from "semantic-ui-react";
 
 import ProjectData from "../data/ProjectData";
-import UseStyles from "./UseStyles";
 
 function ProjectsCards() {
-  const classes = UseStyles();
-
   return (
     <Container className="myProjects-header" maxWidth="lg">
-      <Container className={classes.myProjectsHeader} maxWidth="lg">
-        <Typography component="h1" variant="h2" align="center" gutterBottom>
-          <span className="font-projects">
-            My <span className="highlight-font">Projects</span>
-          </span>
-        </Typography>
-      </Container>
+      <div className="font-projects">
+        My <span className="highlight-font">Projects</span>
+      </div>
       <Grid style={{ marginTop: "10px" }} container spacing={4}>
         {ProjectData.map((card) => {
           const {
@@ -67,10 +59,9 @@ function ProjectsCards() {
                       }
                       title={
                         <Typography component="span">
-                          {" "}
                           <span className="card-header highlight-font">
                             {title}
-                          </span>{" "}
+                          </span>
                         </Typography>
                       }
                       subheader={techUsed}

@@ -2,11 +2,7 @@ import "./App.css";
 import MyProjects from "./components/MyProjects";
 
 function App() {
-  return (
-    <div>
-      <MyProjects />
-    </div>
-  );
+  return <MyProjects />;
 }
 
 export default App;

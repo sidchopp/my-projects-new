@@ -1,5 +1,6 @@
 import { Icon, Grid, Header } from "semantic-ui-react";
 import Typography from "@material-ui/core/Typography";
+import Container from "@material-ui/core/Container";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiContentful, SiGraphql, SiTypescript } from "react-icons/si";
 import UseStyles from "./UseStyles";
@@ -20,12 +21,8 @@ function TechSkills() {
   } = classes;
 
   return (
-    <div>
-      <div>
-        <Typography variant="h5" gutterBottom component="div">
-          <span className="font"> Technologies, I work with </span>
-        </Typography>
-      </div>
+    <Container>
+      <div className="tech-core">Core Technologies</div>
       <div className="tech-container">
         <Grid columns={10} doubling>
           <Grid.Row>
@@ -164,7 +161,7 @@ function TechSkills() {
           </Grid.Row>
         </Grid>
       </div>
-    </div>
+    </Container>
   );
 }
 
