@@ -8,10 +8,40 @@ import {
   Typography,
   Container,
 } from "@material-ui/core";
-import { SiRedux, SiGraphql, SiTypescript } from "react-icons/si";
+import { SiRedux, SiGraphql, SiTypescript, SiNextdotjs } from "react-icons/si";
 import { Icon } from "semantic-ui-react";
 
 import ProjectData from "../data/ProjectData";
+
+const renderIcon = (typeOfProject) => {
+  const iconMap = {
+    React: <Icon size="big" name="react" />,
+    AWS: <Icon size="big" name="aws" />,
+    GraphQL: (
+      <Icon size="big">
+        <SiGraphql />
+      </Icon>
+    ),
+    Redux: (
+      <Icon size="big">
+        <SiRedux />
+      </Icon>
+    ),
+    TypeScript: (
+      <Icon size="big">
+        <SiTypescript />
+      </Icon>
+    ),
+    Next: (
+      <Icon size="big">
+        <SiNextdotjs />
+      </Icon>
+    ),
+    JavaScript: <Icon size="big" name="js" />,
+  };
+
+  return iconMap[typeOfProject];
+};
 
 function ProjectsCards() {
   return (
@@ -36,27 +66,7 @@ function ProjectsCards() {
                 <Card>
                   <CardActionArea href={website} target="_blank">
                     <CardHeader
-                      action={
-                        typeOfProject === "React" ? (
-                          <Icon size="big" name="react" />
-                        ) : typeOfProject === "AWS" ? (
-                          <Icon size="big" name="aws" />
-                        ) : typeOfProject === "GraphQL" ? (
-                          <Icon size="big">
-                            <SiGraphql />
-                          </Icon>
-                        ) : typeOfProject === "Redux" ? (
-                          <Icon size="big">
-                            <SiRedux />
-                          </Icon>
-                        ) : typeOfProject === "TypeScript" ? (
-                          <Icon size="big">
-                            <SiTypescript />
-                          </Icon>
-                        ) : (
-                          <Icon size="big" name="js" />
-                        )
-                      }
+                      action={renderIcon(typeOfProject)}
                       title={
                         <Typography component="span">
                           <span className="card-header highlight-font">

@@ -1,5 +1,20 @@
 const ProjectData = [
   {
+    id: "17",
+    order: 17,
+    title: "Blogs",
+    bestView: "On ALL Big Screens, Laptops, Tablets, Mobiles",
+    dates: "March 2024 - March 2024",
+    duties: [
+      "A list of some interesting random articles. More to be added soon.",
+    ],
+    img: "https://images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?q=80&w=2873&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    website: "https://sm-chopra.vercel.app/",
+    techUsed: "Web Stack: Next 14, GraphQL, Contentful",
+    company: "SID",
+    typeOfProject: "Next",
+  },
+  {
     id: "16",
     order: 16,
     title: "Canadian Holidays",
