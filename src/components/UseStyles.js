@@ -85,26 +85,13 @@ const UseStyles = makeStyles((theme) => ({
     transform: "rotate(180deg)",
   },
   heroContent: {
-    padding: theme.spacing(15, 0),
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-    backgroundPosition: "center",
-    backgroundImage: `url(https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`,
-  },
-  heroButtons: {
-    marginTop: theme.spacing(4),
-    marginBottom: theme.spacing(10),
+    padding: theme.spacing(8, 0),
   },
   icon: {
     marginRight: theme.spacing(2),
   },
   footer: {
-    // backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(6),
-    // backgroundImage: `url(https://images.unsplash.com/photo-1489679407847-02d21ceb0e80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80)`,
-    // backgroundSize: 'cover',
-    // backgroundPosition: 'center',
-    // backgroundPosition: 'center',
   },
 }));
 

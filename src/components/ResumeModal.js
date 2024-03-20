@@ -19,9 +19,9 @@ function ResumeModal() {
         onClose={() => setOpen(false)}
         onOpen={() => setOpen(true)}
         trigger={
-          <div className=" resume-button ">
+          <div className="resume-button">
             <Button>
-              <span className="font-resume ">
+              <span className="font-resume">
                 My <span className="highlight-font">Resume</span>
               </span>
             </Button>

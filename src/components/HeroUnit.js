@@ -18,46 +18,45 @@ function HeroUnit() {
         Siddharth <span>Chopra</span>
       </h1>
       <h2 className="font-profile ">Software Developer</h2>
-      <div className={classes.heroButtons}>
-        <Grid container spacing={2} justifyContent="center">
-          <Grid item>
-            <div>
-              <IconButton
-                href="https://github.com/sidchopp"
-                target="_blank"
-                size="large"
-              >
-                <GitHubIcon className="icon" fontSize="large" />
-              </IconButton>
-            </div>
-          </Grid>
-          <Grid item>
-            <div>
-              <Certifications />
-            </div>
-          </Grid>
-          <Grid item>
-            <div>
-              <IconButton
-                variant="contained"
-                color="primary"
-                href="https://www.linkedin.com/in/sidchopp/"
-                target="_blank"
-                size="large"
-              >
-                <LinkedInIcon className="icon" fontSize="large" />
-              </IconButton>
-            </div>
-          </Grid>
+      <Grid container spacing={2} justifyContent="center">
+        <Grid item>
+          <div>
+            <IconButton
+              href="https://github.com/sidchopp"
+              target="_blank"
+              size="large"
+            >
+              <GitHubIcon className="icon" fontSize="large" />
+            </IconButton>
+          </div>
         </Grid>
-        <Grid container spacing={6} justifyContent="center">
-          <Grid item>
-            <div>
-              <ResumeModal />
-            </div>
-          </Grid>
+        <Grid item>
+          <div>
+            <Certifications />
+          </div>
         </Grid>
-      </div>
+        <Grid item>
+          <div>
+            <IconButton
+              variant="contained"
+              color="primary"
+              href="https://www.linkedin.com/in/sidchopp/"
+              target="_blank"
+              size="large"
+            >
+              <LinkedInIcon className="icon" fontSize="large" />
+            </IconButton>
+          </div>
+        </Grid>
+      </Grid>
+      <Grid container spacing={6} justifyContent="center">
+        <Grid item>
+          <div>
+            <ResumeModal />
+          </div>
+        </Grid>
+      </Grid>
+
       <Typography variant="h4" align="center" gutterBottom></Typography>
     </div>
   );

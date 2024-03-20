@@ -10,7 +10,7 @@
   --scrollToTopShadow: 0 8px 6px -6px var(--darkColor);
   --resumeButtonShadow: rgba(0, 0, 0, 0.25) 0px 14px 28px -5px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  --resumeButtonHover: var(--darkColor) 0px 5px 10px -2px,
+  --resumeButtonHover: var(--lightColor) 0px 2px 3px -2px,
     var(--darkColor) 0px 10px 10px -4px;
   --transition: 0.3s ease-in-out all;
   --bodyFont: "Expletus Sans", cursive;
@@ -56,8 +56,9 @@ html, body {
   color: var(--darkColor);
   font-family: var(--bodyFont);
   font-size: 18px;
+  font-weight: bold;
   text-transform: capitalize;
-  padding: 1px;
+  padding: 3px 5px;
   border-radius: 4px;
 }
 
@@ -75,14 +76,11 @@ html, body {
 }
 
 .resume-button {
+  margin-top: 8px;
   border-radius: 4px;
   transition: var(--transition);
   box-shadow: var(--resumeButtonShadow);
-}
-
-.resume-button:hover {
-  box-shadow: var(--resumeButtonHover);
-  transform: scale(1.001);
+  background-color: var(--lightColor);
 }
 
 .card {
