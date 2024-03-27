@@ -61,39 +61,44 @@ function ProjectsCards() {
             typeOfProject,
           } = card;
           return (
-            <Grid item key={card.id} xs={12} sm={6} md={4}>
-              <div className="card">
-                <Card>
-                  <CardActionArea href={website} target="_blank">
-                    <CardHeader
-                      action={renderIcon(typeOfProject)}
-                      title={
-                        <Typography component="span">
-                          <span className="card-header highlight-font">
-                            {title}
-                          </span>
-                        </Typography>
-                      }
-                      subheader={techUsed}
-                    />
-                    <CardMedia className="card-media" image={img} alt={title} />
-                    <CardContent className="card-content">
-                      <Typography>
-                        <span className="font">{duties}</span>
+            <Grid
+              item
+              key={card.id}
+              xs={12}
+              sm={6}
+              md={4}
+              style={{ display: "flex" }}
+            >
+              <Card className="card">
+                <CardActionArea href={website} target="_blank">
+                  <CardHeader
+                    action={renderIcon(typeOfProject)}
+                    title={
+                      <Typography component="span">
+                        <span className="card-header highlight-font">
+                          {title}
+                        </span>
                       </Typography>
-                    </CardContent>
-                    <CardContent>
-                      <div
-                        className="card-content-extra"
-                        style={{ margin: "3px" }}
-                      >
-                        <h4 className="font"> Best View: </h4>
-                        {bestView}
-                      </div>
-                    </CardContent>
-                  </CardActionArea>
-                </Card>
-              </div>
+                    }
+                    subheader={techUsed}
+                  />
+                  <CardMedia className="card-media" image={img} alt={title} />
+                  <CardContent className="card-content">
+                    <Typography>
+                      <span className="font">{duties}</span>
+                    </Typography>
+                  </CardContent>
+                  <CardContent>
+                    <div
+                      className="card-content-extra"
+                      style={{ margin: "3px" }}
+                    >
+                      <h4 className="font"> Best View: </h4>
+                      {bestView}
+                    </div>
+                  </CardContent>
+                </CardActionArea>
+              </Card>
             </Grid>
           );
         })}

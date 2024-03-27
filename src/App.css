@@ -96,7 +96,7 @@ html, body {
 
 .card:hover {
   box-shadow: var(--cardHoverShadow);
-  transform: translate(0, -10px);
+  transform: translate(0, -1px);
 }
 
 .card:active {
