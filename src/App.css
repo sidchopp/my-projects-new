@@ -110,7 +110,8 @@ html, body {
 
 .card-header {
   font-family: var(--bodyFont);
-  font-size: 1.45rem;
+  font-size: 1.55rem;
+  text-transform: uppercase;
 }
 
 .card-content {
