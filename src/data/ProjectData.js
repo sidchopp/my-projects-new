@@ -1,5 +1,20 @@
 const ProjectData = [
   {
+    id: "18",
+    order: 18,
+    title: "Weather Wise Trip",
+    bestView: "On ALL Big Screens, Laptops, Tablets, Mobiles",
+    dates: "March 2024 - March 2024",
+    duties: [
+      "Do not let the weather rain on your parade – plan your perfect trip.",
+    ],
+    img: "https://images.unsplash.com/photo-1611043714658-af3e56bc5299?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    website: "https://weather-wise-trip.vercel.app/",
+    techUsed: "Web Stack: Next 14, Node",
+    company: "SID",
+    typeOfProject: "Next",
+  },
+  {
     id: "17",
     order: 17,
     title: "Blogs",
@@ -197,21 +212,21 @@ const ProjectData = [
     company: "SID",
     typeOfProject: "React",
   },
-  {
-    id: "2",
-    order: 2,
-    title: "I Will Be Back",
-    bestView: "On ALL Big Screens, Laptops, Tablets, Mobiles",
-    dates: "October 2021 - October 2021",
-    duties: [
-      "It's a Fall back for my Heroku Apps (in production) when they cosume their free monthly hours.",
-    ],
-    img: "https://images.unsplash.com/photo-1585166169032-551d4ea843fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-    website: "https://i-will-be-back.netlify.app/",
-    techUsed: "Web Stack: Node.js, React",
-    company: "SID",
-    typeOfProject: "React",
-  },
+  // {
+  //   id: "2",
+  //   order: 2,
+  //   title: "I Will Be Back",
+  //   bestView: "On ALL Big Screens, Laptops, Tablets, Mobiles",
+  //   dates: "October 2021 - October 2021",
+  //   duties: [
+  //     "It's a Fall back for my Heroku Apps (in production) when they cosume their free monthly hours.",
+  //   ],
+  //   img: "https://images.unsplash.com/photo-1585166169032-551d4ea843fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+  //   website: "https://i-will-be-back.netlify.app/",
+  //   techUsed: "Web Stack: Node.js, React",
+  //   company: "SID",
+  //   typeOfProject: "React",
+  // },
   // {
   //   id: "1",
   //   order: 1,
