@@ -2,6 +2,20 @@ const ProjectData = [
   {
     id: "18",
     order: 18,
+    title: "Angular Hotel Reservation",
+    bestView: "On ALL Big Screens, Laptops, Tablets, Mobiles",
+    dates: "April 2024 - May 2024",
+    description: [
+      "Welcome to my Angular adventure: A basic Hotel reservation app.",
+    ],
+    img: "https://images.unsplash.com/photo-1517840901100-8179e982acb7?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    website: "https://angular-hotel-reservation.netlify.app/",
+    techUsed: "Angular, Node",
+    company: "SID",
+  },
+  {
+    id: "18",
+    order: 18,
     title: "Weather Wise Trip",
     bestView: "On ALL Big Screens, Laptops, Tablets, Mobiles",
     dates: "March 2024 - March 2024",
