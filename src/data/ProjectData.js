@@ -2,7 +2,7 @@ const ProjectData = [
   {
     id: "18",
     order: 18,
-    title: "Angular Hotel Reservation",
+    title: "Hotel Reservation",
     bestView: "On ALL Big Screens, Laptops, Tablets, Mobiles",
     dates: "April 2024 - May 2024",
     description: [
