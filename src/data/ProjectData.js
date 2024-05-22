@@ -166,7 +166,7 @@ const ProjectData = [
       "You are watching this project in action at the moment - A compilation of all my Projects.",
     ],
     img: "https://images.unsplash.com/photo-1572177812156-58036aae439c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
-    website: "https://sid-projects.netlify.app/",
+    website: "https://sid-chopra.netlify.app/",
     techUsed: "Node, React",
     company: "SID",
   },
