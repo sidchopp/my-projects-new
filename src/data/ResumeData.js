@@ -1,6 +1,3 @@
-import developerPic from "../images/developer.jpg";
-import instructorPic from "../images/instructor.jpg";
-
 const ResumeData = [
   {
     id: "recAGJfiU4CeaV0HL",
@@ -48,7 +45,6 @@ const ResumeData = [
       "Full Stack Development program from InceptionU, Calgary, Alberta",
       "Software Product Management Specialization, University of Alberta",
     ],
-    img: `${developerPic}`,
   },
   {
     id: "recIL6mJNfWObonls",
@@ -63,7 +59,6 @@ const ResumeData = [
     frameworks: ["React", "JavaScript", "HTML/CSS", "Git/GitHub"],
     role: " Web Developer",
     certifications: ["A Master’s Degree in Physics (with Mathematics)"],
-    img: `${instructorPic}`,
   },
 ];
 

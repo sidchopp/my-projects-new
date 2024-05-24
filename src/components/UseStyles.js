@@ -14,6 +14,7 @@ const graphQLIconColor = "#e10098";
 const dockerIconColor = "#2496ed";
 const tsIconColor = "#3178c6";
 const nextIconColor = "000000";
+const mongodbColor = "#00684A";
 
 const UseStyles = makeStyles((theme) => ({
   darkColor: {
@@ -57,6 +58,9 @@ const UseStyles = makeStyles((theme) => ({
   },
   nextIcon: {
     color: nextIconColor,
+  },
+  mongodbIcon: {
+    color: mongodbColor,
   },
   cardMedia: {
     paddingTop: "56.25%", // 16:9

@@ -1,7 +1,12 @@
 import { Icon, Grid, Header } from "semantic-ui-react";
 import Container from "@material-ui/core/Container";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiContentful, SiGraphql, SiTypescript } from "react-icons/si";
+import {
+  SiContentful,
+  SiGraphql,
+  SiTypescript,
+  SiMongodb,
+} from "react-icons/si";
 import UseStyles from "./UseStyles";
 
 function TechSkills() {
@@ -17,13 +22,16 @@ function TechSkills() {
     nextIcon,
     tsIcon,
     contentfulIcon,
+    mongodbIcon,
   } = classes;
+
+  console.log(typeof classes);
 
   return (
     <Container>
       <div className="tech-core">Core Technologies</div>
       <div className="tech-container">
-        <Grid columns={10} doubling>
+        <Grid columns={11} doubling>
           <Grid.Row>
             <Grid.Column>
               <Header as="h1">
@@ -90,15 +98,6 @@ function TechSkills() {
             </Grid.Column>
             <Grid.Column>
               <Header as="h1">
-                <a href="https://graphql.org/" target="_blank" rel="noreferrer">
-                  <Icon circular className={`${graphQLIcon} tech-icon`}>
-                    <SiGraphql />
-                  </Icon>
-                </a>
-              </Header>
-            </Grid.Column>
-            <Grid.Column>
-              <Header as="h1">
                 <a
                   href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                   target="_blank"
@@ -109,6 +108,28 @@ function TechSkills() {
                     className={`${jsIcon} tech-icon`}
                     name="js square"
                   />
+                </a>
+              </Header>
+            </Grid.Column>
+            <Grid.Column>
+              <Header as="h1">
+                <a
+                  href="https://www.mongodb.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Icon circular className={`${mongodbIcon} tech-icon`}>
+                    <SiMongodb />
+                  </Icon>
+                </a>
+              </Header>
+            </Grid.Column>
+            <Grid.Column>
+              <Header as="h1">
+                <a href="https://graphql.org/" target="_blank" rel="noreferrer">
+                  <Icon circular className={`${graphQLIcon} tech-icon`}>
+                    <SiGraphql />
+                  </Icon>
                 </a>
               </Header>
             </Grid.Column>

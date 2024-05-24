@@ -1,8 +1,4 @@
-import awsDev from "../images/awsDev.png";
-import awsCP from "../images/awsCP.png";
-import ibmCloud from "../images/ibmCloud.png";
-import UOA from "../images/UOA.png";
-import UOM from "../images/UOM.png";
+import { awsDev, awsCP, ibmCloud, UOA, UOM } from "../images";
 
 const certificationsData = [
   {
