@@ -1,10 +1,8 @@
 import Typography from "@material-ui/core/Typography";
 import { Icon } from "semantic-ui-react";
-import IconButton from "@mui/material/IconButton";
 import { FaCanadianMapleLeaf } from "react-icons/fa";
 import "animate.css";
 
-import ContactMe from "./ContactMe";
 import UseStyles from "./UseStyles";
 import Today from "./Today";
 
@@ -13,17 +11,10 @@ function Footer() {
   return (
     <footer className={classes.footer}>
       <Typography variant="subtitle1" align="center" component="p" gutterBottom>
-        <span className="font">Hope you liked my work. </span>
-      </Typography>
-      <Typography variant="subtitle1" align="center" component="p">
-        <Icon name="mobile alternate" fitted />{" "}
-        <span className="font"> Wanna Talk? Dial (587)-436-7497</span>
-      </Typography>
-      <Typography variant="subtitle1" align="center" component="p">
-        <span className="font">Not a big talker? Drop a</span>{" "}
-        <IconButton>
-          <ContactMe />
-        </IconButton>
+        <Icon name="mail alternate" fitted />{" "}
+        <span className="font">
+          Email: <a href="mailto:sidchopp@gmail.com">sidchopp@gmail.com</a>
+        </span>
       </Typography>
       <Typography variant="body2" align="center" gutterBottom>
         <Icon name="map marker alternate" fitted />{" "}
