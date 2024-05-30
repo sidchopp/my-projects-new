@@ -1,5 +1,19 @@
 const ProjectData = [
   {
+    id: "21",
+    order: 21,
+    title: "FIT Track",
+    bestView: "On ALL Big Screens, Laptops, Tablets, Mobiles",
+    dates: "May 2024 - May 2024",
+    description: [
+      "Get Stronger Every Day with Personalized Workout Plans Tailored Just for You.",
+    ],
+    img: "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    website: "https://mern-workout-app-ecru.vercel.app/",
+    techUsed: "MERN stack",
+    company: "SID",
+  },
+  {
     id: "20",
     order: 20,
     title: "Fin Track",
